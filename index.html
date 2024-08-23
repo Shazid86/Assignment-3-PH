@@ -46,7 +46,7 @@
         <nav>
 
           <!-- parent div-1.1 -->
-          <div class="container navbar justify-evenly my-4">
+          <div class="container navbar justify-evenly pt-10">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0"  class=" lg:hidden">
@@ -70,11 +70,11 @@
                 </ul>
               </div>
 
-              <h1 class="text-3xl font-extrabold mx-auto">Rinterio</h1>
+              <h1 class="text-3xl font-extrabold mx-auto"> <i class="fa-solid fa-arrow-right text-black -rotate-45 px-2 py-2 rounded-full bg-[#ABEF5F]"></i> Rinterio</h1>
             </div>
 
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 gap-4 text-base">
+              <ul class="menu menu-horizontal px-1 gap-2 text-base">
                 <li><a class="font-extrabold">Home</a></li>
                 <li><a class="text-gray-500">Services</a></li>
                 <li><a class="text-gray-500">Portfolio</a></li>
@@ -84,7 +84,24 @@
             </div>
 
             <div class="navbar-end">
-              <a class="text-black bg-[#ABEF5F] px-6 py-3 hidden md:block md:rounded-3xl font-extrabold text-xl">Book Consult <i class="fa-solid fa-arrow-right text-white -rotate-45 px-2 py-2 rounded-full bg-black"></i></a> 
+
+              <!-- search icon -->
+              <div class="bg-white border px-3 py-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+              <!-- search icon -->       
+               </div>
+
+              <!-- shopping cart icon -->
+              <div class="bg-white border rounded-full py-3 px-3 mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+              <!-- shopping cart icon -->    
+              </div>
+
+              <a class="text-black bg-[#ABEF5F] px-4 py-2 hidden md:block md:rounded-3xl font-extrabold text-xl">Book Consult <i class="fa-solid fa-arrow-right text-white -rotate-45 px-2 py-2 rounded-full bg-black"></i></a> 
             </div>
 
             <!-- parent div-1.1 -->
@@ -113,9 +130,14 @@
 
             <p class="text-center mb-8 font-color">Transforming visions into iconic spaces. Explore our innovative designs that blend functionality with aesthetics, <br> shaping the future one project at a time.</p>
 
-            <a class="bg-[#ABEF5F80] px-6 md:px-4 py-3 rounded-3xl font-bold text-xl mx-12 md:mx-96 ">
-              View Details <i class="fa-solid  bg-[#ABEF5F] fa-arrow-right -rotate-45 px-2 py-2 rounded-full"></i>
-              </a>
+            <!-- div 2-1 -->
+            <div class="text-center">
+              <a class="bg-[#ABEF5F80] px-6 md:px-4 py-3 rounded-3xl font-bold text-xl mx-12 md:mx-96">
+                View Details <i class="fa-solid  bg-[#ABEF5F] fa-arrow-right -rotate-45 px-2 py-2 rounded-full"></i>
+                </a>
+                <!-- div 2-1 -->
+            </div>
+
            <!-- div-2 -->
           </div>
 
@@ -135,8 +157,8 @@
 
         <!-- div-1 -->
         <div>
-          <img class="mx-40" src="assets/Vector.png" alt="">
-          <p class="mx-20 md:mx-60 mt-2 font-bold mb-4"> <i class="fa-solid fa-arrow-right"></i> About Us</p>
+          <img class="mx-20" src="assets/Vector.png" alt="">
+          <p class="mx-20 md:mx-40 mt-2 font-bold mb-4 bg-white border w-36 text-center py-2 rounded-full"> <i class="fa-solid fa-arrow-right"></i> About Us</p>
           <!-- div-1 -->
         </div>
 
@@ -153,7 +175,7 @@
 
           <div class="pl-5">
             <h1 class="font-bold">Commercial</h1>
-            <p class="mb-4 font-color">Discover stunning projects, innovative designs, <br> and sustainable solutions.</p>
+            <p class="mb-5 pt-2 font-color">Discover stunning projects, innovative designs, <br> and sustainable solutions.</p>
           </div>
 
            </div>
@@ -164,7 +186,7 @@
 
            <div class="pl-5">
             <h1 class="font-bold">Residential</h1>
-            <p class="font-color">Discover stunning projects, innovative designs, <br> and sustainable solutions.</p>
+            <p class="font-color pt-2">Our stunning projects, innovative designs, and <br> sustainable solutions are at high level.</p>
            </div>
 
            </div>
@@ -235,25 +257,20 @@
            </div>
           <!-- section no.4 ends here -->
         </section>
-        <!-- main part ends here -->
-    </main>
 
-    <!-- footer part starts here -->
-     <footer>
-      <!-- section no.5 starts here -->
-       <section>
+        <!-- section no.5 starts here -->
+       <section class="bg-[url(assets/bg.jpg)] bg-no-repeat bg-cover">
         <!-- parent div-5 -->
         <div>
 
             <!-- div-1 -->
-            <div class="relative" >
-              <img class="w-full h-full" src="assets/bg.jpg" alt="">
+            <div>
 
               <!-- div-2 -->
-              <div class="absolute top-20 mx-80">
+              <div class="top-20 mx-80">
 
-                <h1 class="bg-[#ABEF5F33] font-bold w-3/12 py-1 rounded-3xl text-center mx-60 mt-10"> <i class="fa-solid fa-arrow-right"></i> Let's Connect</h1>
-                <h1 class="font-extrabold text-4xl text-center p-6">Let's Discuss Next Project</h1>
+                <h1 class="bg-[#ABEF5F33] font-bold w-3/12 mt-4 rounded-3xl text-center mx-60"> <i class="fa-solid fa-arrow-right"></i> Let's Connect</h1>
+                <h1 class="font-extrabold text-4xl text-center p-8">Let's Discuss Next Project</h1>
 
                 <p class="text-center font-color text-base">Let's brainstorm some ideas for our next project, or even something completely different that will boost you up also. Let's discuss our goals, timelines etc.</p>
 
@@ -272,8 +289,8 @@
                   <textarea placeholder="Write your message here" class="textarea rounded-3xl w-full h-44"></textarea>
               </form>
 
-              <div class="mt-10">
-                <a class="text-black bg-[#ABEF5F] px-72 ml-2 py-3 md:rounded-3xl font-extrabold text-xl">Send Mail <i class="fa-solid fa-arrow-right text-white -rotate-45 rounded-full bg-black"></i></a> 
+              <div class="mt-4 mb-4">
+                <a class="text-black bg-[#ABEF5F] px-72 py-3 md:rounded-3xl font-extrabold text-xl">Send Mail <i class="fa-solid fa-arrow-right text-white -rotate-45 px-2 py-2 rounded-full bg-black"></i></a> 
               </div>
   
               <!-- div-2 -->
@@ -284,6 +301,45 @@
           <!-- parent div-5  -->
         </div>
         <!-- section no.5 ends here -->
+       </section>
+        <!-- main part ends here -->
+    </main>
+
+    <!-- footer part starts here -->
+     <footer  class="bg-[#1C1C1C]">
+      <!-- section no.6 starts here -->
+       <section>
+        <!-- parent div-6 -->
+         <div>
+
+          <!-- div-1 -->
+          <div>
+            <h1 class="font-bold text-white text-center pt-10 text-3xl pb-4"> <i class="fa-solid  bg-[#ABEF5F] fa-arrow-right -rotate-45 text-black px-1 py-1 rounded-full "></i> Rinterio</h1>
+            <p class="font-color text-center">we're passionate about providing our customers with the highest quality products and services. <br> That's why we're committed to using only the finest materials </p>
+            <!-- div-1 -->
+          </div>
+
+          <!-- div-2 -->
+          <div>
+            <ul class="flex justify-center pt-10 gap-28">
+              <li><a class="text-white">Home</a></li>
+              <li><a class="text-white">Services</a></li>
+              <li><a class="text-white">Portfolio</a></li>
+              <li><a class="text-white">Blogs</a></li>
+              <li><a class="text-white">Contact Us</a></li>
+            </ul>
+            <!-- div-2 -->
+          </div>
+          
+          <!-- div-3 -->
+          <div class="mx-auto w-[211px] pb-20 text-center pt-10">
+            <a class="text-black bg-[#ABEF5F] px-4 py-2 hidden md:block md:rounded-3xl font-extrabold text-xl">Book Consult <i class="fa-solid fa-arrow-right text-white -rotate-45 px-2 py-2 rounded-full bg-black"></i></a> 
+               <!-- div-3 -->
+          </div>
+
+            <!-- parent div-6 -->
+         </div>
+            <!-- section no.6 starts here -->
        </section>
        <!-- footer part ends here -->
      </footer>
